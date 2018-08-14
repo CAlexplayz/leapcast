@@ -48,7 +48,7 @@ data = read_from(get_path('leapcast', '__init__.py'))
 
 version = re.search(u"__version__\s*=\s*u?'([^']+)'", data).group(1).strip()
 
-readme = read_from(get_path('README.rst'))
+readme = read_from(get_path('README.md'))
 
 
 
